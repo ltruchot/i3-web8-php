@@ -37,5 +37,34 @@ Pour résumer, si (n % x == 0), alors n est un multiple de x !
 - je testerai tous les nombres de 0 à 10 000, avec votre fonction, et ça doit marcher.
 - pour celles qui finissent vite, je donnerais un autre exercice...
 
+## CONSIGNES BONUS
+1. La simplicité d'abord: 
+    - réussissez l'exercice sans utiliser l'opérateur &&, et sans qu'aucun "if" soient imbriqués l'un dans l'autre
+2. La complexité maîtrisée:
+    - réussissez l'exercice avec, en plus "hiss" pour les multiple de 7, et "howl" pour les multiples de 11, en respectant les règles précédentes
+    - exemples :
+        - "fizzbuzz" si c'est un multiple de 3 et 5
+        - "fizzbuzzhiss" si c'est un multiple de 3 et 5 et 7
+        - "fizzbuzzhisshowl" si c'est un multiple de 3 et 5 et 7 et 11
+        - tout les cas intermédaires doivent marcher aussi (ex: fizzhowl pour 33)
+            - 15 -> "fizzbuzz"
+            - 165 -> "fizzbuzzhowl"
+            - 1155 -> "fizzbuzzhisshowl"
+3. Faites en sorte qu'on puisse passer le tableau des conditions à la fonction, et qu'elle marche toujours peut importe les conditions :
+```
+$conditions = array(
+    "fizz" => 3,
+    "buzz" => 5,
+    "hiss" => 7,
+    "howl" => 11,
+    "web8" => 17 /* etc... */
+);
+function fizzbuzz ($arrOfConditions, $testedInteger) {
+    /* mon code */
+    return;
+}
+echo fizzbuzz($conditions, 19635); // devrait afficher fizzbuzzhisshowlweb8
+```
+
 
 Bonne chance.
