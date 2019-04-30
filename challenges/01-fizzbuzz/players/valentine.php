@@ -1,5 +1,5 @@
 <?php 
-
+/*
 // v0
 $entier = 15;
 function fizzBuzz($entier) {
@@ -68,7 +68,7 @@ function fizzBuzz($entier) {
     
 }
 echo fizzBuzz(19635);
-
+*/
 
 // 3. Tableau des conditions
 
@@ -89,3 +89,10 @@ function fizzbuzz ($conditions, $entier) {
 }
 
 echo fizzbuzz($conditions, 19635);
+
+echo "<h2>Fizz Buzz Hiss Howl Web8</h2>";
+echo "<ul>";
+for ($i = 1; $i <= 100; $i++) {
+    echo "<li>" . fizzbuzz($conditions, $i) . "</li>";
+}
+echo "</ul>";
