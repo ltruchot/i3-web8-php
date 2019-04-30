@@ -1,0 +1,11 @@
+UN ARBRE
+
+--- propriétés ---
+branches = int
+taille = int (in meters)
+couleur = string
+feuille = nombre
+
+--- méthodes ---
+pousser()
+mourir()

@@ -56,11 +56,11 @@
     $quizzInfo = createQuizz($quizz);
     echo "<section>";
     echo "  <h3>Quel est le symbole de « " . $quizzInfo["question"] . " » dans le tableau périodique des éléments ?</h3>";
-    echo "<div class=\"d-flex justify-content-around\">";
+    echo "  <div class=\"d-flex justify-content-around\">";
     foreach ($quizzInfo["answers"] as $answer) {
-        echo "<button class=\"btn btn-secondary btn-lg\">$answer</button>";
+        echo "      <button class=\"btn btn-secondary btn-lg\">$answer</button>";
     }
-    echo "</div>";
+    echo "  </div>";
     echo "</section>";
     ?>
 </div>

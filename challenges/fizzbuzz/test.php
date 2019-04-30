@@ -3,6 +3,10 @@ $converters = array(
   "fizz" => 3,
   "buzz" => 5
 );
+
+
+
+
 function makeFizzBuzz ($c) {
     return function ($n) use ($c) {
         $result = array_reduce(
@@ -15,6 +19,10 @@ function makeFizzBuzz ($c) {
         return $result ? $result : $n;
     }; 
 } 
+
+
+
+
 
 $fizzBuzz = makeFizzBuzz($converters);
 

@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+    padding: 3px 5px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+.logo {
+    width: 20px;
+}
+.logo-reversed {
+    width: 20px;
+    transform: scaleX(-1);
+}

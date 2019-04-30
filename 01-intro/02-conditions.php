@@ -21,3 +21,4 @@ if (isset($total)) {
 }
 ?>
 </div>
+<div><a href="03-switch.php">Discover switch</a></div>

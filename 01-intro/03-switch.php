@@ -24,3 +24,4 @@ var_dump($total);
 echo "Total: €" . $total;
 
 ?>
+<div><a href="04-loops.php">Discover loops</a></div>
