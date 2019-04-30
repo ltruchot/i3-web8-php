@@ -4,6 +4,8 @@ Le français est une des langues les plus dure à formaliser.
 
 Voici donc un challenge avancé pour débuter en TAL du français !
 
+Vous pouvez choisir de le faire en PHP ou en JavaScript !
+
 ## Le code paraît bon
 
 - Créer une fonction génératrice de phrases aléatoires, mais valides en français
@@ -23,8 +25,8 @@ Voici donc un challenge avancé pour débuter en TAL du français !
     - la souris est gentil - PAS OK
     - la justice est douce - OK
 
-- votre code doit être correctement organisé: aucun fichier ne doit faire plus de 50 lignes
-- chaque noms, verbe et adjectifs doit être tiré aléatoirement
+- votre code doit être correctement organisé: (si PHP, aucun fichier ne doit faire plus de 50 lignes)
+- chaque noms, verbe et adjectif doit être tiré aléatoirement
 
 ## Tips
 - prenez bien le temps de décomposer chaque prolème, en commençant petit (ex: un simple générateur de nom commun aléatoire parmis 3 mots seulement)
